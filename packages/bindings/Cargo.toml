@@ -1,0 +1,13 @@
+[package]
+name = "zodiatic-bindings"
+version = "0.1.0"
+authors = ["Kenneth Lee <kennethlee@ud.hk>"]
+edition = "2021"
+
+[dependencies]
+cosmwasm-std = "1.0.0"
+schemars = "0.8.8"
+serde = { version = "1.0.137", default-features = false, features = ["derive"] }
+
+[dev-dependencies]
+cosmwasm-schema = "1.0.0"
